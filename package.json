@@ -3,7 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "tinacms dev -c \"astro dev\"",
+    "start": "tinacms dev -c \"astro dev\"",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -13,5 +14,8 @@
     "@tinacms/cli": "^1.6.12",
     "astro": "^5.0.2",
     "tinacms": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
   }
 }
